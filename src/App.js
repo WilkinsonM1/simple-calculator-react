@@ -61,7 +61,7 @@ import KeyPadComponent from "./components/KeyPadComponent"
     return (
      <div id="main-container">
        <div className="calculator-body">
-         <h1>Simple Calculator</h1>
+         <h2>Simple Calculator</h2>
          <ResultComponent result={this.state.result} />
          <KeyPadComponent onClick={this.onClick} />
 

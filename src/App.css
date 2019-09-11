@@ -66,6 +66,7 @@ body {
   border-color: black;
   background-color: orange;
   color: purple;
+  overflow: auto;
 }
 .calculator-body h1 {
   width: 100%;
@@ -73,6 +74,8 @@ body {
   justify-content: center;
   border: solid;
   border-color: black;
+  overflow: auto;
+  
 }
 .result {
   width: 100%;
@@ -114,4 +117,10 @@ body {
 }
 .number {
   background-color: aliceblue;
+}
+
+@media screen and (max-width: 600px){
+  .calculator-body {
+    width: 75%;
+  }
 }
