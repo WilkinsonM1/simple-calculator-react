@@ -50,7 +50,7 @@ import KeyPadComponent from "./components/KeyPadComponent"
 
    backspace = () => {
      this.setState({
-       result:""
+       result: this.state.result.slice(0, this.state.result.length-1)
      })
    }
 
